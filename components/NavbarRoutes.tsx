@@ -33,8 +33,8 @@ export const NavbarRoutes = () => {
         ) : (
           <Link href="/teacher/courses">
             <Button variant="ghost" size="sm">
+              <LogIn className="h-4 w-4 mr-2" />
               Teacher mode
-              <LogIn className="h-4 w-4 ml-1" />
             </Button>
           </Link>
         )}
